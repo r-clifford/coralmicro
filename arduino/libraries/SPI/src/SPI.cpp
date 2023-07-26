@@ -32,6 +32,7 @@ void HardwareSPI::begin() {
     uint32_t instance = LPSPI_GetInstance(base_);
     NVIC_SetPriority(kLpspiIrqs[instance], kInterruptPriority);
     LPSPI_MasterGetDefaultConfig(&config_);
+    config_.baudRate = 100000000;
     status_t status =
         LPSPI_RTOS_Init(&handle_, base_, &config_,
                         CLOCK_GetFreqFromObs(CCM_OBS_LPSPI6_CLK_ROOT));

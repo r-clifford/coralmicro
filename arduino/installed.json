@@ -1,0 +1,108 @@
+{
+  "packages": [
+    {
+      "name": "coral",
+      "maintainer": "Coral Team",
+      "websiteUrl": "https://coral.ai",
+      "Url": "https://dl.google.com/coral/micro/package_coral_index.json",
+      "email": "coral-support@google.com",
+      "platforms": [
+        {
+          "name": "Coral",
+          "architecture": "coral_micro",
+          "version": "1.0.1",
+          "deprecated": false,
+          "category": "",
+          "url": "https://github.com/google-coral/coralmicro/releases/download/arduino-1.0.1/coral-micro-c1c350026ec17239848f3552592f39f81890ed3c.tar.bz2",
+          "archiveFileName": "coral-micro.tar.bz2",
+          "checksum": "SHA-256:1897510efea7f643c5486d122053e085f9a81b659c7a84c4ec9a9f55e9d9f44d",
+          "size": "112045226",
+          "boards": [
+            {
+              "name": "Dev Board Micro"
+            },
+            {
+              "name": "Dev Board Micro + Wireless Add-on"
+            },
+            {
+              "name": "Dev Board Micro + PoE Add-on"
+            }
+          ],
+          "help": {},
+          "toolsDependencies": [
+            {
+              "packager": "coral",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2020q2"
+            },
+            {
+              "packager": "coral",
+              "name": "flashtool",
+              "version": "1.0.1"
+            }
+          ],
+          "discoveryDependencies": [],
+          "monitorDependencies": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "arm-none-eabi-gcc",
+          "version": "9-2020q2",
+          "systems": [
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/9-2020q2/gcc-arm-none-eabi-9-2020-q2-update-x86_64-linux.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-9-2020-q2-update-x86_64-linux.tar.bz2",
+              "size": "140360119",
+              "checksum": "MD5:2b9eeccc33470f9d3cda26983b9d2dc6"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/9-2020q2/gcc-arm-none-eabi-9-2020-q2-update-mac.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-9-2020-q2-update-mac.tar.bz2",
+              "size": "142999997",
+              "checksum": "MD5:75a171beac35453fd2f0f48b3cb239c3"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://dl.google.com/coral/gcc-arm-none-eabi-9-2020-q2-update-win32-arduino1.zip",
+              "archiveFileName": "gcc-arm-none-eabi-9-2020-q2-update-win32-arduino1.zip",
+              "size": "182850168",
+              "checksum": "SHA-256:daa13799151d05adb5c37016010e5ff649941aab4dac150a3ad649749cde4896"
+            }
+          ]
+        },
+        {
+          "name": "flashtool",
+          "version": "1.0.1",
+          "systems": [
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/google-coral/coralmicro/releases/download/arduino-1.0.1/coral-flashtool-linux64-c1c350026ec17239848f3552592f39f81890ed3c.tar.bz2",
+              "archiveFileName": "coral-flashtool-linux64.tar.bz2",
+              "size": "8682295",
+              "checksum": "SHA-256:f73b558c32d72313265174c5e541a079da225ac953f6a952d3bb0f65c006a6b5"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/google-coral/coralmicro/releases/download/arduino-1.0.1/coral-flashtool-osx-c1c350026ec17239848f3552592f39f81890ed3c.tar.bz2",
+              "archiveFileName": "coral-flashtool-osx.tar.bz2",
+              "size": "10523052",
+              "checksum": "SHA-256:222e4a7532b8382083dcbbd1179336d559fee3524e23060e996f75426030bace"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/google-coral/coralmicro/releases/download/arduino-1.0.1/coral-flashtool-windows-c1c350026ec17239848f3552592f39f81890ed3c.tar.bz2",
+              "archiveFileName": "coral-flashtool-windows.tar.bz2",
+              "size": "8024499",
+              "checksum": "SHA-256:848b36b98de0993e2e10e08aae8b4c93ceefcd74f969eb1023d070a6ed775c93"
+            }
+          ]
+        }
+      ],
+      "help": {}
+    }
+  ],
+  "IsTrusted": false
+}

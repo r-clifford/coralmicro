@@ -61,6 +61,11 @@ Pin (Arduino pin) | Silk label | Silk label | Pin (Arduino pin)
 #define A3 (1U)
 #define A4 (2U)
 
+#define SS (9U)
+#define MOSI (11U)
+#define MISO (12U)
+#define SCK (10U)
+
 #define DAC0 (PIN_BTN)
 
 #define digitalPinToInterrupt(p) (p)

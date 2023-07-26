@@ -45,6 +45,14 @@ static coralmicro::Gpio PinNumberToGpio(pin_size_t pinNumber) {
       return coralmicro::Gpio::kArduinoA3;
     case A4:
       return coralmicro::Gpio::kArduinoA4;
+    case SS:
+      return coralmicro::Gpio::kSpiCs;
+    case MOSI:
+      return coralmicro::Gpio::kSpiSdi;
+    case MISO:
+      return coralmicro::Gpio::kSpiSdo;
+    case SCK:
+      return coralmicro::Gpio::kSpiSck;
     default:
       assert(false);
       return coralmicro::Gpio::kCount;

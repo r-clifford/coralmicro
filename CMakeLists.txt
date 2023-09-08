@@ -57,3 +57,6 @@ else()
 endif()
 
 add_subdirectory(libs)
+add_subdirectory(arduino/libraries/Adafruit_BNO08x)
+add_subdirectory(arduino/libraries/Adafruit_BusIO)
+add_subdirectory(arduino/libraries/SD)

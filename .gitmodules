@@ -49,3 +49,12 @@
 [submodule "third_party/littlefs-fuse"]
 	path = third_party/littlefs-fuse
 	url = https://github.com/google-coral/coralmicro-littlefs-fuse
+[submodule "arduino/libraries/Adafruit_BNO08x"]
+	path = arduino/libraries/Adafruit_BNO08x
+	url = https://github.com/r-clifford/Adafruit_BNO08x.git
+[submodule "arduino/libraries/Adafruit_BusIO"]
+	path = arduino/libraries/Adafruit_BusIO
+	url = https://github.com/r-clifford/Adafruit_BusIO.git
+[submodule "arduino/libraries/SD"]
+	path = arduino/libraries/SD
+	url = https://github.com/r-clifford/SD.git
